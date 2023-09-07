@@ -35,7 +35,7 @@ router.get('/', async (req, res) => {
 
         return res.status(200).json({
             count: books.length,
-            data: books
+            data: books,
         });
     } catch (error) {
         console.log(error);
